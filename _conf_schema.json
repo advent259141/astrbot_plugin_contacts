@@ -1,0 +1,20 @@
+{
+  "admin_ids": {
+    "type": "list",
+    "title": "管理员列表",
+    "description": "允许管理通讯录的QQ号列表，留空表示所有人都可以管理",
+    "default": []
+  },
+  "enable_fuzzy_search": {
+    "type": "bool",
+    "title": "启用模糊搜索",
+    "description": "搜索联系人时是否使用模糊匹配",
+    "default": true
+  },
+  "auto_update_last_used": {
+    "type": "bool",
+    "title": "自动更新使用时间",
+    "description": "发送消息时是否自动更新联系人的最后使用时间",
+    "default": true
+  }
+}
